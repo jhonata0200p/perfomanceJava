@@ -91,29 +91,6 @@ export async function projectsView(app) {
     
   })
 
-  // functions.forEach((funtion) => {
-  //   cardContainer.innerHTML += `<article>
-  //     <div
-  //       class="grid grid-cols-3 grid-rows-[30px_1fr_1fr] p-3 max-w-70 max-h-89 shadow-lg shadow-slate-800 rounded-2xl bg-linear-to-br from-blue-100 to-blue-900"
-  //     >
-  //       <div
-  //         class="col-start-3 col-end-4 bg-amber-500/20 text-amber-600 rounded-2xl text-xs flex items-center p-2 hover:text-amber-300 cursor-pointer font-bold"
-  //       >
-  //         <span>${funtion.movie}</span>
-  //       </div>
-  //       <div
-  //         class="col-start-1 col-end-3 row-end-2 row-start-1 text-black hover:text-orange-800"
-  //       >
-  //         <h3>${funtion.room}</h3>
-  //       </div>
-  //       <div class="p-2 col-start-1 col-end-4 text-black">
-  //         <p>${funtion.state}</p>
-  //       </div>
-
-        
-  //     </div>
-  //   </article>`;
-  // });
 
   cardContainer.addEventListener("click", async (e) => {
     const btn = e.target.closest("[data-action]");
