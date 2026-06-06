@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": 2,
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": 3,
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    }
+  ],
+  "functions": [
+    {
+      "id": 1,
+      "movie": "Rambo",
+      "room": "Sala A",
+      "date": "5/06/2026",
+      "hourStart": "9:00 pm",
+      "hourEnd": "10:00 pm",
+      "capacity": 50,
+      "AvailablePlaces": 20,
+      "state": "active"
+    },
+    {
+      "id": 2,
+      "movie": "Alien",
+      "room": "Sala B",
+      "date": "6/06/2026",
+      "hourStart": "9:00 pm",
+      "hourEnd": "10:00 pm",
+      "capacity": 50,
+      "AvailablePlaces": 45,
+      "state": "active"
+    },
+    {
+      "movie": "Roboco",
+      "room": "Sala B",
+      "date": "2026-06-05",
+      "hourStart": "08:51",
+      "hourEnd": "20:51",
+      "capacity": "10",
+      "AvailablePlaces": "10",
+      "state": "Sala A",
+      "id": 3
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "user": 2,
+      "funtion": 1,
+      "tickets": 5,
+      "reservData": "5/06/2026",
+      "state": "pendind"
+    }
+  ]
+}
